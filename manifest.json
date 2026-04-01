@@ -1,0 +1,9 @@
+﻿{
+  "id": "article-typesetter",
+  "name": "Article Typesetting Tool",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Convert Markdown into WeChat-friendly HTML and copy it as rich text.",
+  "author": "离歌笑",
+  "isDesktopOnly": true
+}

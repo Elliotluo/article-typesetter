@@ -1,0 +1,44 @@
+﻿.article-typesetter-modal .modal-content {
+  max-width: 980px;
+}
+
+.article-typesetter-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.article-typesetter-label {
+  margin: 8px 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.article-typesetter-input {
+  width: 100%;
+  min-height: 180px;
+  resize: vertical;
+  font-family: var(--font-monospace);
+}
+
+.article-typesetter-preview {
+  margin-top: 8px;
+  min-height: 180px;
+  max-height: 320px;
+  overflow: auto;
+  padding: 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary-alt);
+}
+
+.article-typesetter-status {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.article-typesetter-setting-textarea {
+  min-height: 110px;
+  min-width: 420px;
+}
