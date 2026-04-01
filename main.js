@@ -485,7 +485,7 @@ module.exports = class ArticleTypesetterPlugin extends Plugin {
     });
 
     this.addRibbonIcon("copy", "复制当前笔记为富文本", async () => {
-      await this.app.commands.executeCommandById("obsidian-article-typesetter:copy-current-note-rich-text");
+      await this.app.commands.executeCommandById("article-typesetter:copy-current-note-rich-text");
     });
 
     this.addSettingTab(new ArticleTypesetterSettingTab(this.app, this));
